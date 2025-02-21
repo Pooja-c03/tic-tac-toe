@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    color: beige;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rosybrown;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
