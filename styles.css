@@ -12,4 +12,20 @@ body {
   .container {
     text-align: center;
   }
+
   
+  button {
+    padding: 10px 20px;
+    background-color: rosybrown;
+    font-size: 1em;
+    border: 3px solid beige;
+    border-radius: 10px;
+    cursor: pointer;
+    color: beige;
+  }
+  
+  #message {
+    margin-top: 20px;
+    font-size: 20px;
+    color: black;
+  }
