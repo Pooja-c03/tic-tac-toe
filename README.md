@@ -21,3 +21,7 @@ This repository contains a simple Tic-Tac-Toe game implemented using HTML, CSS, 
 ## Try it out !
 
 https://tictaactooee.netlify.app/
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
