@@ -26,9 +26,28 @@ cells.forEach((cell, index) => {
     });
   });
 
-  resetButton.addEventListener('click', () => {
+resetButton.addEventListener('click', () => {
     cells.forEach(cell => cell.textContent = '');
     message.textContent = '';
     currentPlayer = 'X';
   });
-  
+
+function checkWinner() {
+    for (let combo of winningCombinations) {
+      if (cells[combo[0]].textContent === currentPlayer &&
+          cells[combo[1]].textContent === currentPlayer &&
+          cells[combo[2]].textContent === currentPlayer) {
+        return true;
+      }
+    }
+    return false;
+  }
+
+  function checkDraw() {
+    for (let cell of cells) {
+      if (cell.textContent === '') {
+        return false;
+      }
+    }
+    return true;
+  }
