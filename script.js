@@ -26,3 +26,9 @@ cells.forEach((cell, index) => {
     });
   });
 
+  resetButton.addEventListener('click', () => {
+    cells.forEach(cell => cell.textContent = '');
+    message.textContent = '';
+    currentPlayer = 'X';
+  });
+  
